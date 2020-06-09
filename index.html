@@ -1,35 +1,38 @@
 <!DOCTYPE html>
+
     <head>
-        <title>Google (Matt)</title>
-        <link rel="icon" href="google-tab-icon.png" class="circle-picture">
+        <title>Google</title>
+        <link rel="icon" href="google-tab-pic.png">
+        <link rel="stylesheet" href="google-style.css" type="text/css">
+        <meta charset="UTF-8">
     </head>
-    <style>
-        .center{
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
 
-        .google-logo{
-            width: 16.5%;
-            margin-top: 12%;
-        }
-
-        .circle-picture{
-            border-radius: 50%;
-        }
-
-        .search-bar{
-            width: 25%;
-            font-size: 16px;
-            border-radius: 0%;
-            margin-top: 25px;
-        }
-    </style>
     <body>
-        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" class="center google-logo">
-        <form action="search.txt">
-            <input type="text" class="center search-bar">
-        </form>
+
+        <nav>
+            <div class="top-navbar">
+                    <a href="null" id="about">About</a>
+                    <a href="null" id="store">Store</a>
+                    <a href="null" id="sign-in">Sign In</a>
+                    <a href="null" id="images">Images</a>
+                    <a href="null" id="gmail">Gmail</a>
+            </div>
+        </nav>
+        
+        <main>
+            <div>
+                <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo" class=" center google-logo">
+                <form action="null">
+                    <div class="center search-container">
+                        <input type="text" class="center search-bar">
+                    </div> 
+                </form>
+            </div>
+        </main>
+
+
+
     </body>
 </html>
+
+<!-- https://meyerweb.com/eric/tools/css/reset/ -->

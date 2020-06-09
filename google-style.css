@@ -1,0 +1,87 @@
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.google-logo{
+    width: 16.5%;
+    margin-top: 8.5%;
+    justify-content: inherit;
+}
+
+.search-bar{
+    width: 90%;
+    font-size: 16px;
+    margin: 10px;
+    margin: 10px 20px 10px 20px;
+    border: none;
+}
+
+.account-image{
+    border-radius: 70px;
+    height: 50px;
+}
+ 
+a{
+    color: rgb(36, 34, 34);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.top-navbar{
+    background-color: white;
+    margin-top: 0px;
+    padding: 15px 10px 10px 20px;
+    font-size: 13px;
+}
+
+.search-container{
+    background-color: white;
+    width: 30%;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+    padding: 3px 15px 3px 20px;
+    margin-top: 20px;
+}
+
+#about{
+    margin-left: 0px;
+}
+
+#store{
+    margin-left: 20px;
+}
+
+#gmail{
+    float: right;
+    margin-right: 20px;
+}
+
+#images{
+    float: right;
+    margin-right: 20px;
+}
+
+#sign-in{
+    float: right;
+    margin-right: 20px;
+    border-style: none;
+    padding: 8px 13px 8px 13px;
+    margin-top: -9px;
+    background-color: #4387fd;
+    color: white;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+#sign-in:hover{
+    text-decoration: none;
+}
